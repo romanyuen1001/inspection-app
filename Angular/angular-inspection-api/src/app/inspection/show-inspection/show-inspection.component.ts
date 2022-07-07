@@ -33,7 +33,7 @@ export class ShowInspectionComponent implements OnInit {
     this.inspection = {
       id:0,
       status:null,
-      comment:null,
+      comments:null,
       inspectionTypeId:null
     }
     this.modalTitle = "Add Inspection";

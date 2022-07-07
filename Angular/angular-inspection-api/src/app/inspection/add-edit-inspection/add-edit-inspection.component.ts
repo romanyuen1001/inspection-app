@@ -38,9 +38,9 @@ export class AddEditInspectionComponent implements OnInit {
       inspectionTypeId:this.inspectionTypeId
     }
     this.service.addInspection(inspection).subscribe(res => {
-      var closeModelBtn = document.getElementById('add-edit-modal-close');
-      if(closeModelBtn) {
-        closeModelBtn.click();
+      var closeModalBtn = document.getElementById('add-edit-modal-close');
+      if(closeModalBtn) {
+        closeModalBtn.click();
       }
 
       var showAddSuccess = document.getElementById('add-success-alert');
