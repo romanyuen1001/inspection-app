@@ -1,0 +1,4 @@
+﻿
+Do the MyMigration
+cd ./InspectionAPI
+Add-Migration MyMigration -context DataContextName
