@@ -31,3 +31,4 @@ ng serve --open
 
 <!-- ## Generated 
 ng g c inspection/show-inspection   -->
+<!-- https://www.youtube.com/watch?v=rzPFEuKlPhM -->
